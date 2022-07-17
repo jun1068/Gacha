@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA34F39F2883B1B400ED7BF7 /* GachaResources in Resources */ = {isa = PBXBuildFile; fileRef = DA34F39E2883B1B300ED7BF7 /* GachaResources */; };
 		DA34F3A12883B62200ED7BF7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA34F3A02883B62200ED7BF7 /* ResultViewController.swift */; };
+		DA34F3C82883E15A00ED7BF7 /* GachaResources in Resources */ = {isa = PBXBuildFile; fileRef = DA34F3C72883E15A00ED7BF7 /* GachaResources */; };
 		DAF78E6A2883AD8A000B888E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF78E692883AD8A000B888E /* AppDelegate.swift */; };
 		DAF78E6C2883AD8A000B888E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF78E6B2883AD8A000B888E /* SceneDelegate.swift */; };
 		DAF78E6E2883AD8A000B888E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF78E6D2883AD8A000B888E /* ViewController.swift */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA34F39E2883B1B300ED7BF7 /* GachaResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GachaResources; sourceTree = "<group>"; };
 		DA34F3A02883B62200ED7BF7 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		DA34F3C72883E15A00ED7BF7 /* GachaResources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GachaResources; sourceTree = "<group>"; };
 		DAF78E662883AD8A000B888E /* Gacha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gacha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAF78E692883AD8A000B888E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAF78E6B2883AD8A000B888E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,12 +60,12 @@
 		DAF78E682883AD8A000B888E /* Gacha */ = {
 			isa = PBXGroup;
 			children = (
-				DA34F39E2883B1B300ED7BF7 /* GachaResources */,
 				DAF78E692883AD8A000B888E /* AppDelegate.swift */,
 				DAF78E6B2883AD8A000B888E /* SceneDelegate.swift */,
 				DAF78E6D2883AD8A000B888E /* ViewController.swift */,
 				DAF78E6F2883AD8A000B888E /* Main.storyboard */,
 				DAF78E722883AD8C000B888E /* Assets.xcassets */,
+				DA34F3C72883E15A00ED7BF7 /* GachaResources */,
 				DAF78E742883AD8C000B888E /* LaunchScreen.storyboard */,
 				DAF78E772883AD8C000B888E /* Info.plist */,
 				DA34F3A02883B62200ED7BF7 /* ResultViewController.swift */,
@@ -132,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAF78E762883AD8C000B888E /* LaunchScreen.storyboard in Resources */,
-				DA34F39F2883B1B400ED7BF7 /* GachaResources in Resources */,
+				DA34F3C82883E15A00ED7BF7 /* GachaResources in Resources */,
 				DAF78E732883AD8C000B888E /* Assets.xcassets in Resources */,
 				DAF78E712883AD8A000B888E /* Main.storyboard in Resources */,
 			);
